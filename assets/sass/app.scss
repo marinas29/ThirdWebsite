@@ -1,6 +1,16 @@
-$color: red;
-$color2: blue;
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 
-.test-class {
-    background-color: $color;
-}
+@import "config/vars";
+@import "config/mixins";
+@import "config/helpers";
+
+// Base and reset styles
+@import "base/base";
+
+// Modules
+@import "styles/modules/header";
+@import "styles/modules/footer";
+@import "styles/modules/menu";
+
+@import "styles/pages/image-grid";
