@@ -7,7 +7,9 @@
     "build-css": "node-sass assets/sass/app.scss -o dist/ --source-map true",
     "dev": "rerun-script",
     "lite": "lite-server",
+    "ngrok": "ngrok http 3000",
     "start": "concurrently \"npm run dev\"  \"npm run lite\""
+
   },
   "watches": {
     "build-css": "assets/sass/**/**/*.scss"
