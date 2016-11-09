@@ -81,17 +81,20 @@
             }
         }
 
-        @include media-q(md) {
+        @include media-q(lgg) {
             padding: 0px 150px;
         }
 
-        @include media-q(sm) {
+        @include media-q(lg) {
             padding: 0px 100px;
         }
 
-        @include media-q(xs) {
+        @include media-q(md) {
             padding: 0px 50px;
-            text-align: center;
+        }
+
+        @include media-q(xs) {
+            padding: 0px 20px;
         }
     }
 
