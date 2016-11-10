@@ -159,33 +159,50 @@
         <div class="footer">
 
             <div class="footer__form">
-                <h1 class="footer__form__title">Get in Touch</h1>
+                <h1 class="footer__title">Get in Touch</h1>
 
                 <div class="footer__form__fields">
 
                     <div class="row">
+
                         <div class="footer__group">
-                            <input class="footer__input" id="name" placeholder='Name' value=""/>
-                            <input class="footer__input" id="email" placeholder='Email' value=""/>
+
+                            <div class=footer__group__input__border>
+                                <input class="footer__group__input" id="name" placeholder='Name' value=""/>
+                                <div class="footer__group__border"></div>
+                            </div>
+
+                            <div class=footer__group__input__border>
+                                <input class="footer__group__input" id="email" placeholder='Email' value=""/>
+                                <div class="footer__group__border"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <textarea name="" class="footer__input footer__input--message" id="message" placeholder='Message'></textarea>
+                        <div class=footer__group__input__border>
+                        <textarea name="" class="footer__group__input footer__group__input--message" id="message" placeholder='Message'></textarea>
+                        <div class="footer__group__border"></div>
+                        </div>
                     </div>
 
                 </div>
 
+                    <input type="submit" class="btn-default" value="Send"/>
+
             </div>
 
-            <div class="footer__social">
-                <i class="fa fa-twitter" ></i>
-                <i class="fa fa-facebook" ></i>
-                <i class="fa fa-dribbble" ></i>
-                <i class="fa fa-github" ></i>
-                <i class="fa fa-500px" ></i>
-                <i class="fa fa-phone" ></i>
-                <i class="fa fa-envelope-o" ></i>
+            <div class="footer__social social-icons">
+                <h1 class="footer__title footer__title--social">Follow</h1>
+                <div class="social-icons__content">
 
+                    <i class="social-icons__content__icon social-icons__content__icon--facebook" ></i>
+                    <i class="social-icons__content__icon social-icons__content__icon--twitter" ></i>
+                    <i class="social-icons__content__icon social-icons__content__icon--dribbble" ></i>
+                    <i class="social-icons__content__icon social-icons__content__icon--git" ></i>
+                    <i class="social-icons__content__icon social-icons__content__icon--500px" ></i>
+                    <i class="social-icons__content__icon social-icons__content__icon--phone"></i>
+                    <i class="social-icons__content__icon social-icons__content__icon--envelope"></i>
+                </div>
             </div>
 
             <div class="footer__credits">

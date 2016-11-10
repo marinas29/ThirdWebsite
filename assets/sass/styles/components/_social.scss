@@ -1,0 +1,105 @@
+$icons: (
+    twitter: (
+        color: #2DAAE4,
+        unicode: '\f099'
+    ),
+    facebook: (
+        color: #3C5A98,
+        unicode: '\f09a'
+    ),
+    dribbble: (
+        color: #C4376B,
+        unicode: '\f17d'
+    ),
+    git: (
+        color: #000,
+        unicode: '\f09b'
+    ),
+    500px: (
+        color: $color-img-purple,
+        unicode: '\f26e'
+    ),
+    phone: (
+        color: green,
+        unicode: '\f095'
+    ),
+    envelope: (
+        color: $color-base-grey,
+        unicode: '\f003'
+    )
+);
+
+.social-icons {
+
+    max-width: 350px;
+    margin-left: 50px;
+
+    &__content {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        &__icon {
+            display: flex;
+            border-radius: 3px;
+            width: 50px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 15px 15px 0;
+
+            @each $key, $icon in $icons {
+                &--#{$key} {
+                    color: map-get($icon, color);
+                    border: 1px solid map-get($icon, color);
+
+                    &:before {
+                        content: map-get($icon, unicode);
+                        font-family: "FontAwesome";
+                        font-style: normal;
+                    }
+
+                    &:hover {
+                        background-color: map-get($icon, color);
+                        color: lighten($color-base-grey, 63);
+                    }
+                }
+            }
+
+            // border: 1px solid lighten($color-base-grey, 50);
+            // color: $color-base-grey;
+
+            @include media-q(xs) {
+                font-size: 15px;
+                width: 30px;
+                height: 30px;
+           }
+
+        }
+
+        @include media-q(md) {
+            flex-wrap: nowrap;
+        }
+
+        @include media-q(xs) {
+            flex-wrap: wrap;
+        }
+
+    }
+
+    @include media-q(xxg) {
+        margin-left: 20px;
+        max-width: 200px;
+    }
+
+    @include media-q(lg) {
+        margin-top: 50px;
+        margin-left: 0px;
+        max-width: 100%;
+    }
+
+    @include media-q(xs) {
+        margin-left: 0;
+   }
+
+}

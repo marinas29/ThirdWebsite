@@ -8,13 +8,17 @@ ul, nav, ol {
     list-style: none;
 }
 
+input, textarea, button {
+    border: 0;
+    outline: none;
+}
+
 a {
     text-decoration: none;
     color: $color-base-grey;
     border-bottom: dotted 1px;
     transition: color .5s ease;
     cursor: default;
-
 
     &:hover {
         color: $color-base-pink;
