@@ -41,7 +41,24 @@
 
 
         <div class="navigation">
+            <div class="navigation__menu" a href="#menu">
+            </div>
         </div>
+
+        <div class="menu" id="menu">
+            <div class="menu__side-menu">
+
+                <ul class="menu__side-menu__list">
+                    <h1 class="menu__side-menu__list menu__side-menu__list--title">Menu</h1>
+                    <li class="menu__side-menu__list--links">Home</li>
+                    <li class="menu__side-menu__list--links">Ipsum veroeros</li>
+                    <li class="menu__side-menu__list--links">Tempus etiam</li>
+                    <li class="menu__side-menu__list--links">Consequat dolor</li>
+                    <li class="menu__side-menu__list--links">Elements</li>
+                </ul>
+            </div>
+        </div>
+        <div class="overlay overlay-menu"></div>
 
         <div class="image-grid">
 
@@ -220,5 +237,15 @@
 
         </div>
 
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.navigation').on('click', function() {
+                    $('.menu').toggleClass('menu--active');
+                    $(this).toggleClass('navigation--active');
+                    $('body').toggleClass('scroll-hidden');
+                })
+            })
+        </script>
     </body>
 </html>

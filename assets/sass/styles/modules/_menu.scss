@@ -1,0 +1,170 @@
+.navigation {
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    right: 2%;
+    position: fixed;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    &__menu {
+        position: relative;
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        transition: transform .5s ease;
+
+        &:before, &:after {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: black;
+            transition: transform .5s ease;
+
+        }
+
+        &:before {
+            transform: translateY(-200%);
+        }
+
+        &:after {
+            transform: translateY(200%);
+        }
+    }
+
+    &--active {
+        background-color: transparent;
+        z-index: 125;
+
+        & .navigation__menu {
+            background-color: transparent;
+
+            //esta sobrescrevendo o translateY
+            //fazendo com que o after e before voltem ao centro
+            //do elemento pai
+            &:before {
+                transform: rotate(45deg);
+            }
+
+            &:after {
+
+                transform: rotate(-45deg);
+            }
+
+        }
+    }
+}
+
+.menu {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 20%;
+    display: inherit;
+    transition: transform .5s ease, background-color .5s ease;
+
+    &--active {
+        display: block;
+        // open menu
+        transform: translateX(-100%);
+
+        @for $i from 1 through 6 {
+            & div ul :nth-child(#{$i}) {
+                transition: transform .5s ease-in;
+                transition-delay: .1s + ($i / 5);
+                transform: translateX(-150%);
+            }
+        }
+
+        & + .overlay-menu {
+            display: block;
+            transition: background-color 2s ease-in forwards;
+        }
+    }
+
+    &__side-menu {
+        height: 100vh;
+        background-color: $color-base-grey;
+        color: white;
+        padding: 200px 50px 0;
+
+        &__list {
+            transform: translateX(150%);
+
+            &--title {
+                text-transform: uppercase;
+                letter-spacing: 10px;
+                font-size: 25px;
+                font-weight: bold;
+                padding-bottom: 20px;
+                padding-left: 0px;
+
+                @include media-q(xs) {
+                    padding-bottom: 15px;
+                    font-size: 20px;
+                }
+            }
+
+            &--links {
+                padding: 20px 0;
+                font-weight: lighter;
+                text-transform: none;
+                letter-spacing: normal;
+                font-size: 20px;
+                border-bottom: 1px solid lighten($color-base-grey, 5);
+                cursor: pointer;
+                transition: color .5s ease;
+                line-height: 2;
+
+                &:hover {
+                    color: $color-base-pink;
+                }
+
+                @include media-q(xs) {
+                    padding: 15px;
+                    padding-left: 0;
+                    font-size: 15px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    @include media-q(lgg) {
+        width: 25%;
+    }
+
+    @include media-q(lg) {
+        width: 30%;
+    }
+
+    @include media-q(md) {
+        width: 35%;
+    }
+
+    @include media-q(sm) {
+        width: 50%;
+    }
+
+    @include media-q(xs) {
+        width: 75%;
+    }
+
+}
+
+.overlay-menu {
+    background-color: $color-base-transparent;
+    position: fixed;
+    z-index: 50;
+    height: 100vh;
+    display: none;
+
+}
