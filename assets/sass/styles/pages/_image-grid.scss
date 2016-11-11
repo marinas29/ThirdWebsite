@@ -93,10 +93,11 @@
             transform: scale(1.1);
 
             .image-grid__item__overlay {
-                opacity: 0.4;
+                opacity: 0;
             }
 
             .image-grid__item__content {
+
                 &__title {
                     transform: translateY(0);
                 }
@@ -115,66 +116,34 @@
 
     & :nth-child(1) .overlay {
         background-color: $color-base-pink;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     & :nth-child(2n+0) .overlay {
         background-color: $color-img-blue;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     & :nth-child(3n+0) .overlay{
         background-color: $color-img-light-green;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     & :nth-child(4n+0) .overlay{
         background-color: $color-img-dark-pink;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     & :nth-child(5n+0) .overlay{
         background-color: $color-img-purple;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     & :nth-child(6n+0) .overlay{
         background-color: $color-img-light-blue;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     & :nth-child(7) .overlay{
         background-color: $color-img-blue;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     & :nth-child(11) .overlay{
         background-color: $color-base-pink;
-
-        &:hover {
-            background-color: $color-base-overlay;
-        }
     }
 
     @include media-q(xxg) {
