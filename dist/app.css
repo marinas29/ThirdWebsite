@@ -504,6 +504,222 @@ body {
       transition: transform .5s ease-in;
       transition-delay: 1.3s;
       transform: translateX(-150%); }
+    .menu--active div ul :nth-child(7) {
+      transition: transform .5s ease-in;
+      transition-delay: 1.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(8) {
+      transition: transform .5s ease-in;
+      transition-delay: 1.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(9) {
+      transition: transform .5s ease-in;
+      transition-delay: 1.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(10) {
+      transition: transform .5s ease-in;
+      transition-delay: 2.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(11) {
+      transition: transform .5s ease-in;
+      transition-delay: 2.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(12) {
+      transition: transform .5s ease-in;
+      transition-delay: 2.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(13) {
+      transition: transform .5s ease-in;
+      transition-delay: 2.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(14) {
+      transition: transform .5s ease-in;
+      transition-delay: 2.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(15) {
+      transition: transform .5s ease-in;
+      transition-delay: 3.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(16) {
+      transition: transform .5s ease-in;
+      transition-delay: 3.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(17) {
+      transition: transform .5s ease-in;
+      transition-delay: 3.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(18) {
+      transition: transform .5s ease-in;
+      transition-delay: 3.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(19) {
+      transition: transform .5s ease-in;
+      transition-delay: 3.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(20) {
+      transition: transform .5s ease-in;
+      transition-delay: 4.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(21) {
+      transition: transform .5s ease-in;
+      transition-delay: 4.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(22) {
+      transition: transform .5s ease-in;
+      transition-delay: 4.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(23) {
+      transition: transform .5s ease-in;
+      transition-delay: 4.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(24) {
+      transition: transform .5s ease-in;
+      transition-delay: 4.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(25) {
+      transition: transform .5s ease-in;
+      transition-delay: 5.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(26) {
+      transition: transform .5s ease-in;
+      transition-delay: 5.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(27) {
+      transition: transform .5s ease-in;
+      transition-delay: 5.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(28) {
+      transition: transform .5s ease-in;
+      transition-delay: 5.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(29) {
+      transition: transform .5s ease-in;
+      transition-delay: 5.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(30) {
+      transition: transform .5s ease-in;
+      transition-delay: 6.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(31) {
+      transition: transform .5s ease-in;
+      transition-delay: 6.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(32) {
+      transition: transform .5s ease-in;
+      transition-delay: 6.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(33) {
+      transition: transform .5s ease-in;
+      transition-delay: 6.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(34) {
+      transition: transform .5s ease-in;
+      transition-delay: 6.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(35) {
+      transition: transform .5s ease-in;
+      transition-delay: 7.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(36) {
+      transition: transform .5s ease-in;
+      transition-delay: 7.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(37) {
+      transition: transform .5s ease-in;
+      transition-delay: 7.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(38) {
+      transition: transform .5s ease-in;
+      transition-delay: 7.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(39) {
+      transition: transform .5s ease-in;
+      transition-delay: 7.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(40) {
+      transition: transform .5s ease-in;
+      transition-delay: 8.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(41) {
+      transition: transform .5s ease-in;
+      transition-delay: 8.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(42) {
+      transition: transform .5s ease-in;
+      transition-delay: 8.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(43) {
+      transition: transform .5s ease-in;
+      transition-delay: 8.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(44) {
+      transition: transform .5s ease-in;
+      transition-delay: 8.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(45) {
+      transition: transform .5s ease-in;
+      transition-delay: 9.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(46) {
+      transition: transform .5s ease-in;
+      transition-delay: 9.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(47) {
+      transition: transform .5s ease-in;
+      transition-delay: 9.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(48) {
+      transition: transform .5s ease-in;
+      transition-delay: 9.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(49) {
+      transition: transform .5s ease-in;
+      transition-delay: 9.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(50) {
+      transition: transform .5s ease-in;
+      transition-delay: 10.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(51) {
+      transition: transform .5s ease-in;
+      transition-delay: 10.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(52) {
+      transition: transform .5s ease-in;
+      transition-delay: 10.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(53) {
+      transition: transform .5s ease-in;
+      transition-delay: 10.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(54) {
+      transition: transform .5s ease-in;
+      transition-delay: 10.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(55) {
+      transition: transform .5s ease-in;
+      transition-delay: 11.1s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(56) {
+      transition: transform .5s ease-in;
+      transition-delay: 11.3s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(57) {
+      transition: transform .5s ease-in;
+      transition-delay: 11.5s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(58) {
+      transition: transform .5s ease-in;
+      transition-delay: 11.7s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(59) {
+      transition: transform .5s ease-in;
+      transition-delay: 11.9s;
+      transform: translateX(-150%); }
+    .menu--active div ul :nth-child(60) {
+      transition: transform .5s ease-in;
+      transition-delay: 12.1s;
+      transform: translateX(-150%); }
     .menu--active + .overlay-menu {
       display: block;
       transition: background-color 2s ease-in forwards; }
@@ -511,7 +727,9 @@ body {
     height: 100vh;
     background-color: #585858;
     color: white;
-    padding: 200px 50px 0; }
+    padding: 100px 50px 50px;
+    overflow-x: hidden;
+    overflow-y: auto; }
     .menu__side-menu__list {
       transform: translateX(150%); }
       .menu__side-menu__list--title {

@@ -76,7 +76,7 @@
         // open menu
         transform: translateX(-100%);
 
-        @for $i from 1 through 6 {
+        @for $i from 1 through 60 {
             & div ul :nth-child(#{$i}) {
                 transition: transform .5s ease-in;
                 transition-delay: .1s + ($i / 5);
@@ -94,7 +94,9 @@
         height: 100vh;
         background-color: $color-base-grey;
         color: white;
-        padding: 200px 50px 0;
+        padding: 100px 50px 50px;
+        overflow-x: hidden;
+        overflow-y: auto;
 
         &__list {
             transform: translateX(150%);
